@@ -10,7 +10,6 @@ public class Dataset {
     public String DatasetName;
     public String DatatypeName;
     public String DatatypeDataverseName;
-    public String DatasetType;
     public InternalDetails InternalDetails;
 
     @JsonIgnoreProperties(ignoreUnknown = true)
